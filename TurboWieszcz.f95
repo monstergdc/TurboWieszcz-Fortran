@@ -1,5 +1,5 @@
 ! Turbo Wieszcz ++ Fortran (~95/GNU more/less) version, v1.0
-! (c)2017 Noniewicz.com, Jakub Noniewicz
+! (c)2017-2019 Noniewicz.com, Jakub Noniewicz
 !///////////////////////////////////////////////////////////////////////////////
 !// based directly on (translated from): previous version written in Python
 !// which was based directly on (translated from): previous version written for Windows in Delphi
@@ -9,7 +9,7 @@
 !// idea presented in "Magazyn Amiga" magazine and implemented by Marek Pampuch.
 !// also inspired by version written for iPhone by Tomek (Grych) Gryszkiewicz.
 !// and versions written in C, JavaScript, Pascal, PHP and as CGI by Tomek (Grych) Gryszkiewicz.
-!// note: there are also ZX Spectrum (ASM Z80) and Android (Java) versions
+!// note: there are also ZX Spectrum/ZX-81/Amstrad CPC (ASM Z80), Android (Java) versions, and more!
 !///////////////////////////////////////////////////////////////////////////////
 ! created: 20171026 20:00-21:00
 ! updated: 20171026 21:30-22:40
@@ -22,6 +22,7 @@
 ! updated: 20171027 21:25-22:40
 ! updated: 20171028 15:05-15:30
 ! updated: 20171028 16:35-16:40
+! updated: 20190925 13:20-13:22
 
 ! NOTES:
 ! 1. to install (some) Fortran on (some) Linux you may use:
@@ -32,7 +33,7 @@
 ! 3. It is unclear for me which (if any) standard of Fortran it is conforming to...
 ! I started with F95 but then it does not compile with -std=f95 anymore (only with -std=gnu)
 ! 4. optional (ordered) parametrs when calling executable are:
-! [nubmer of stanzas (1-32)] [verse mode (1-3 = ABAB, ABBA, AABB)] [repetitions ok (0, 1)]
+! [number of stanzas (1-32)] [verse mode (1-3 = ABAB, ABBA, AABB)] [repetitions ok (0, 1)]
 
 
 module wieszcz_variables
