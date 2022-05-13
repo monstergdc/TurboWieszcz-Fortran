@@ -1,5 +1,5 @@
 ! Turbo Wieszcz ++ Fortran (~95/GNU more/less) version, v1.0
-! (c)2017-2019 Noniewicz.com, Jakub Noniewicz
+! (c)2017-2022 Noniewicz.com, Jakub Noniewicz
 !///////////////////////////////////////////////////////////////////////////////
 !// based directly on (translated from): previous version written in Python
 !// which was based directly on (translated from): previous version written for Windows in Delphi
@@ -23,6 +23,7 @@
 ! updated: 20171028 15:05-15:30
 ! updated: 20171028 16:35-16:40
 ! updated: 20190925 13:20-13:22
+! updated: 20220513 11:25-11:26
 
 ! NOTES:
 ! 1. to install (some) Fortran on (some) Linux you may use:
@@ -158,7 +159,7 @@ program turbo_wieszcz
   data(1, 29) = 'Gdy nie każdego stać na browary'
   data(1, 30) = 'Pożarł Hilary swe okulary'
   data(1, 31) = 'Spowiły nas trujące opary'
-  data(1, 32) = 'To nie jest calka ani logarytm'
+  data(1, 32) = 'To nie jest całka ani logarytm'
 !///////////////////////////////////////////////
 !//po 8
   data(2, 1)  = 'Już na arenę krew tryska'
