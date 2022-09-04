@@ -1,4 +1,4 @@
-! Turbo Wieszcz ++ Fortran (~95/GNU more/less) version, v1.0
+! Turbo Wieszcz ++ Fortran (~95/GNU more/less) version, v2.0
 ! (c)2017-2022 Noniewicz.com, Jakub Noniewicz
 !///////////////////////////////////////////////////////////////////////////////
 !// based directly on (translated from): previous version written in Python
@@ -24,6 +24,7 @@
 ! updated: 20171028 16:35-16:40
 ! updated: 20190925 13:20-13:22
 ! updated: 20220513 11:25-11:26
+! updated: 20220904 18:00-18:05
 
 ! NOTES:
 ! 1. to install (some) Fortran on (some) Linux you may use:

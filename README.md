@@ -1,4 +1,4 @@
-# Turbo Wieszcz ++ Fortran version, v1.0
+# Turbo Wieszcz ++ Fortran version
 
 A Polish poem generator.
 
